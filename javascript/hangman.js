@@ -32,6 +32,7 @@ class Hangman {
 
   addCorrectLetter(letter) {
     // ... your code goes here
+    this.guessedLetters += letter;
   }
 
   addWrongLetter(letter) {
@@ -46,7 +47,7 @@ class Hangman {
       return false
     }
     else {return true}
-    
+
   }
 
   checkWinner() {
